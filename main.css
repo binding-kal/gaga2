@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Burbank";
+    src: url("BurbankBigRegularBlack.woff2") format("woff2"),
+        url("BurbankBigRegularTT-Black.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Burbank" !important;
+}
+
+input:disabled, textarea:disabled, input:disabled::placeholder, textarea:disabled::placeholder {
+  -webkit-text-fill-color: currentcolor; /* 1. sets text fill to current `color` for safari */
+  opacity: 1; /* 2. correct opacity on iOS */
+}
+
+.SYF {
+    z-index: 50000;
+    -webkit-mask-image: url("https://d13pxqgp3ixdbh.cloudfront.net/uploads/16529689404e2504ea71ae1da566010c5489a8cffe.png");
+    mask-image: url("https://d13pxqgp3ixdbh.cloudfront.net/uploads/16529689404e2504ea71ae1da566010c5489a8cffe.png");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    pointer-events: none;
+    background-image: url(https://d13pxqgp3ixdbh.cloudfront.net/uploads/1652968975f9b720e01538bc95d6e5c8c92087c1f6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.SYF2 {
+    background-image: url(https://d13pxqgp3ixdbh.cloudfront.net/uploads/1652968975f9b720e01538bc95d6e5c8c92087c1f6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*clip-path: polygon(0% 0%, 0% 100%, 316px 100%, 316px 61px, 830.5px 61px, 830.5px 1155px, 316px 1155px, 316px 100%, 100% 100%, 100% 0%);*/
+    z-index: 50000;
+}
+
+.mobile-test {
+    padding-bottom: 201.82%;
+}
+
+.mobile-final {
+    top: 2%;
+    height: 96%;
+    width: 90%;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.mobile-test:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://d13pxqgp3ixdbh.cloudfront.net/uploads/1652968940a6677bd5331ea7cd3b11d1ab43ece87f.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 500000;
+    pointer-events: none;
+}
+
+.dots {
+    background-image: url(https://d13pxqgp3ixdbh.cloudfront.net/uploads/1652968358ff7ee98435766947f7602cb6c4a5fe82.png);
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+
+.MEGA {
+    background-image: url(https://d13pxqgp3ixdbh.cloudfront.net/uploads/1652968975f9b720e01538bc95d6e5c8c92087c1f6.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.text-shadow-xl {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.text-shadow-sm {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .2);
+}
+
+.CPATH-1 {
+    clip-path: polygon(0% 20%, 100% 8%, 94% 100%, 6% 88%);
+}
+
+.CPATH-1-REVERSE {
+    clip-path: polygon(0 8%, 100% 20%, 94% 88%, 6% 100%);
+}
+
+.CPATH-2 {
+    clip-path: polygon(0% 10%, 100% 4%, 97% 100%, 3% 94%);
+}
+
+.PURPLEFLICK {
+    /*background-image: url(img/purple.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #621F98;
+}
+
+.BGFLICK {
+    background: rgb(130, 42, 203);
+    background: linear-gradient(180deg, rgba(130, 42, 203, 1) 20%, rgba(179, 120, 227, 1) 80%);
+}
+
+#GEAR {
+    animation-duration: 2s !important;
+}
